@@ -56,3 +56,44 @@ principal, number of years and rate of interest.
 //     printf("Area of Cylinder is %.2f \n", pi*r_cylinder*r_cylinder*h);
 //     return 0;
 // }
+
+//______________________________________________________________________________________________________
+
+// 3.  Asnwer
+// Celsius to Farenheit formula
+// F = (C * 9/5) + 32
+
+
+// #include<stdio.h>
+
+// int main() {
+//     int celsius;
+//     printf("Enter Temperature in Celsius : ");
+//     scanf("%d", &celsius);
+//     printf("Temperature in Farenheit is %.2f\n", (celsius*(9.0/5.0)) + 32);
+//     return 0;
+// }
+
+//___________________________________________________________________________________________________
+
+// 4. Answer
+
+// Simple Interest Formula
+// SI = (Principal Value * Rate of Interest * Time)/100 or (P*R*T)/100
+
+// #include<stdio.h>
+
+// int main() {
+//     int P, T;
+//     float R;
+//     printf("Enter the principal value of Money : ");
+//     scanf("%d", &P);
+//     printf("Enter Rate of Interest : ");
+//     scanf("%f", &R);
+//     printf("Enter Time Period : ");
+//     scanf("%d", &T);
+//     printf("Simple Interest on the Principal money is : %.2f", ((P*R*T)/100));
+//     return 0;
+// }
+
+//___________________________________________________________________________________________________________________
