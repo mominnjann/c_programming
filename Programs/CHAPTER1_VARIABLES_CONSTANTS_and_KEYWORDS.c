@@ -39,20 +39,20 @@ principal, number of years and rate of interest.
 // Area of Circle = pi*r*r
 // Volume of Cylinder = pi*r*r*h
 
-#include<stdio.h>
+// #include<stdio.h>
 
-int main() {
-    float pi = 3.14;
-    int r_circle;
-    int r_cylinder;
-    int h;
-    printf("Enter radius of Circle: ");
-    scanf("%d", &r_circle);
-    printf("Enter radius of Cylinder: ");
-    scanf("%d", &r_cylinder);
-    printf("Enter height of Cylinder: ");
-    scanf("%d", &h);
-    printf("Area of Circle is %.2f \n", pi*r_circle*r_circle);
-    printf("Area of Cylinder is %.2f \n", pi*r_cylinder*r_cylinder*h);
-    return 0;
-}
+// int main() {
+//     float pi = 3.14;
+//     int r_circle;
+//     int r_cylinder;
+//     int h;
+//     printf("Enter radius of Circle: ");
+//     scanf("%d", &r_circle);
+//     printf("Enter radius of Cylinder: ");
+//     scanf("%d", &r_cylinder);
+//     printf("Enter height of Cylinder: ");
+//     scanf("%d", &h);
+//     printf("Area of Circle is %.2f \n", pi*r_circle*r_circle);
+//     printf("Area of Cylinder is %.2f \n", pi*r_cylinder*r_cylinder*h);
+//     return 0;
+// }
