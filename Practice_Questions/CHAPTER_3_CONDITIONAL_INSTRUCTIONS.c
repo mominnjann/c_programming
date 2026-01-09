@@ -100,3 +100,65 @@ lowercase or not.
 // }
 
 //_____________________________________________________________________________________________________________________
+
+//4. Answer
+
+// #include<stdio.h>
+
+// int main() {
+//     int year;
+//     printf("Enter Current Year : ");
+//     scanf("%d", &year);
+//     if ((year % 400 == 0) || year % 4 == 0 && year % 100 != 0){
+//         printf("It's a leap year\n");
+//     }
+//     else{
+//         printf("Not a leap year");
+//     }
+//     return 0;
+// }
+
+//______________________________________________________________________________________________________________________________
+
+//5. Answer
+
+// #include<stdio.h>
+
+// int main() {
+//     char ch;
+//     printf("Enter your character : ");
+//     scanf("%c", &ch);
+//     if (ch >= 'a' && ch <= 'z'){
+//         printf("Its a lowercase character\n");
+//     }
+//     else{
+//         printf("It's not a lowcase character\n");
+//     }
+//     return 0;
+// }
+
+//______________________________________________________________________________________________________________________________
+
+//6. Answer
+
+// #include<stdio.h>
+
+// int main() {
+//     int a, b, c, d;
+//     printf("Enter your four numbers number: ");
+//     scanf("%d %d %d %d", &a, &b, &c, &d);
+//     int greatest = a;
+//     if (b > greatest){
+//         greatest = b ;
+//     }
+//     if (c > greatest){
+//         greatest = c;
+//     }
+//     if (d > greatest){
+//         greatest = d;
+//     }
+//     printf("The greatest of all numbers is %d ", greatest);
+//     return 0;
+// }
+
+//_______________________________________________________________________________________________________________________
