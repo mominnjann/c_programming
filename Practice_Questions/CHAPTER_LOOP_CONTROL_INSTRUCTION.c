@@ -119,3 +119,38 @@ multiplication table of 8. (consider 8 x 1 to 8 x 10).
 // }
 
 //______________________________________________________________________________________________________________________
+
+//7. Answer
+
+// #include<stdio.h>
+
+// int main() {
+//     int multiplication;
+//     int num = 8;
+//     int sum = 0;
+//     for(int i = 0; i<=10; i++)
+//     {
+//         multiplication = num*i;
+//         sum = sum + multiplication;
+//     }
+//     printf("Sum of 8 muliplication table is %d", sum);
+//     return 0;
+// }
+
+//______________________________________________________________________________________________________________________
+
+//8. Answer
+
+#include<stdio.h>
+
+int main() {
+    int n, factorial;
+    printf("Enter Number: ");
+    scanf("%d", &n);                                                                                                                                                              
+    for (int i = 1; i<=n; i++)
+    {
+        factorial = n*i;
+    }
+    printf("factorial of %d is %d", n, factorial);
+    return 0;
+}
