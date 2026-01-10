@@ -20,3 +20,102 @@ multiplication table of 8. (consider 8 x 1 to 8 x 10).
 */
 
 //_________________________________________________________________________________________________________________
+
+
+//1. Answer
+
+// #include<stdio.h>
+
+// int main() {
+//     int num;
+//     printf("Enter the number for multiplication : ");
+//     scanf("%d", &num);
+//     for (int i = 1 ; i<=10 ; i++)
+//     {
+//         printf("%d x %d = %d\n", num, i, num*i);
+//     }
+//     return 0;
+// }
+
+//________________________________________________________________________________________________________________________
+
+//2. Answer
+
+// #include<stdio.h>
+
+// int main() {
+//     int num;
+//     printf("Enter the number for multiplication : ");
+//     scanf("%d", &num);
+//     for (int i = 10 ; i>=1 ; i--)
+//     {
+//         printf("%d x %d = %d\n", num, i, num*i);
+//     }
+//     return 0;
+// }
+
+//________________________________________________________________________________________________________________________________
+
+//3. Answer
+
+//A do while loop is executed at least one time.
+
+//____________________________________________________________________________________________________________________________________
+
+//4. Answer
+
+//True
+
+//_____________________________________________________________________________________________________________________________________
+
+//5. Answer
+
+// #include<stdio.h>
+
+// int main() {
+//     int i = 1;
+//     int sum = 0;
+//     while (i<=10)
+//     {
+//         sum = sum + i;
+//         i++;
+//     }
+//     printf("The sum of first ten natural number is %d", sum);
+//     return 0;
+// }
+
+//_______________________________________________________________________________________________________________________________
+
+//6. Answer
+
+//For loop
+
+// #include<stdio.h>
+
+// int main() {
+//     int sum = 0;
+//     for (int i = 0; i<= 10;)
+//     {
+//         sum = sum + i;
+//         i++;
+//     }
+//     printf("The sum of first 10 natural number is %d", sum);
+//     return 0;
+// }
+
+// DO while loop
+
+// #include<stdio.h>
+
+// int main() {
+//     int sum = 0;
+//     int i = 0;
+//     do{
+//         sum = sum + i;
+//         i++;
+//     }while(i<=10);
+//     printf("The sum of first ten natural number is %d", sum);
+//     return 0;
+// }
+
+//______________________________________________________________________________________________________________________
