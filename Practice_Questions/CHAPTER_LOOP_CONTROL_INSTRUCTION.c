@@ -141,16 +141,77 @@ multiplication table of 8. (consider 8 x 1 to 8 x 10).
 
 //8. Answer
 
-#include<stdio.h>
+// #include<stdio.h>
 
-int main() {
-    int n, factorial;
-    printf("Enter Number: ");
-    scanf("%d", &n);                                                                                                                                                              
-    for (int i = 1; i<=n; i++)
-    {
-        factorial = n*i;
-    }
-    printf("factorial of %d is %d", n, factorial);
-    return 0;
-}
+// int main() {
+//     int n, factorial;
+//     factorial = 1;
+//     printf("Enter Number: ");
+//     scanf("%d", &n);                                                                                                                                                              
+//     for (int i = 1; i<=n; i++)
+//     {
+//         factorial = factorial*i;
+//     }
+//     printf("factorial of %d is %d", n, factorial);
+//     return 0;
+// }
+
+
+//________________________________________________________________________________________________________________________________
+
+//9. Answer
+
+// #include<stdio.h>
+
+// int main() {
+//     int n, i, factorial;
+//     factorial = 1;
+//     i = 1;
+//     printf("Enter Number: ");
+//     scanf("%d", &n);
+//     while (i<=n)
+//     {
+//         factorial = factorial*i;
+//         i++;
+//     }
+//     printf("The Factorial of given number is %d", factorial);
+//     return 0;
+// }
+
+//_______________________________________________________________________________________________________________________________________
+
+//10. Answer
+
+// #include<stdio.h>
+
+// int main() {
+//     int n, prime;
+//     printf("Enter a Number : ");
+//     scanf("%d", &n);
+//     prime = 1;
+//     if (n == 0 || n == 1){
+//         prime = 0;
+//     }
+//     else{
+//         for (int i = 2; i < n; i++)
+//         {
+//             if (n % i == 0 && n != 2)
+//             {
+//                 prime = 0;
+//                 break;
+//             }
+//             else{
+//                 prime = 1;
+//             }
+            
+//         }
+        
+//     }
+//     if(prime){
+//         printf("Its Prime");
+//     }
+//     else{
+//         printf("Its not prime");
+//     }
+//     return 0;
+// }
