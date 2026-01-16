@@ -20,5 +20,9 @@ the said variable.
 
 //1. Answer
 
-/*
-*/
+#include<stdio.h>
+
+int main() {
+    
+    return 0;
+}
