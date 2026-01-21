@@ -20,38 +20,51 @@ the said variable.
 
 //1. Answer
 
-#include<stdio.h>
+// #include<stdio.h>
 
-int main() {
-    
-    return 0;
-}
+// int main() {
+//     int var = 5;
+//     printf("Address of the variable = %u\n", &var);
+//     printf("Value of the variable = %d", var);
+//     return 0;
+// }
 
 //_____________________________________________________________________________________________________________
 
-#include<stdio.h>
+//2. Answer
 
-int main() {
-    
-    return 0;
-}
+// #include<stdio.h>
+// void func(int *pntr){
+//     printf("Value at the address is %d\n", pntr);
+// }
+
+// int main() {
+//     int i = 5;
+//     printf("Address value = %u\n", &i);
+//     func(&i);
+//     return 0;
+// }
 
 //______________________________________________________________________________________________________________________
 
-#include<stdio.h>
+//3. Answer
 
-int main() {
-    
-    return 0;
-}
+// #include<stdio.h>
+
+// int main() {
+//     int var = 5;
+//     int nwvar = 10*var;
+//     printf("Variable 10 times value = %d\n", nwvar);    
+//     return 0;
+// }
 
 //_______________________________________________________________________________________________________________________________
+//4. Answer
 
 #include<stdio.h>
 
 int main() {
-    
-    return 0;
+
 }
 
 //________________________________________________________________________________________________________________________________
