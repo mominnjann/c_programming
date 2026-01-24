@@ -92,14 +92,36 @@ increasing order.
 
 // 6. Answer
 
+/*
 #include<stdio.h>
+
+int printArray(int a[], int n){
+    for (int i = 0; i < n; i++)
+    {
+        printf("%d ", a[i]);
+    }
+    printf("\n");
+    
+}
+
+void reverse(int array[], int n){
+    int temp;
+    for (int i = 0; i < n/2; i++)
+    {
+        temp = array[i];
+        array[i] = array[n-i-1];
+        array[n-i-1] = temp;
+
+    }
+    
+}
 
 int main() {
     int arr[] = {1, 2, 3, 4, 5, 6};
-    printArray[arr];
-    reverse[arr];
-    printArray[arr];
+    printArray(arr, 6);
+    reverse(arr, 6);
+    printArray(arr, 6);
     return 0;
 }
-
+*/
 //______________________________________________________________________________________________________________________________
