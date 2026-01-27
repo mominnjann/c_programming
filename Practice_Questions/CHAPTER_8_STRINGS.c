@@ -31,6 +31,113 @@ problem 6.
 
 //2. Answer
 
+/*
+
+With Array
+
+#include<stdio.h>
+
+int main() {
+    char str[6];
+    scanf("%s", str);
+    printf("%s", str);
+    return 0;
+}
+
+
+With Char
+
+#include<stdio.h>
+
+int main() {
+    char str[6];
+    for (int i = 0; i < 5; i++)
+    {
+        scanf("%c", &str[i]);
+        fflush(stdin);
+    }
+    str[5] = '\0';
+    printf("%s", str);
+    
+    return 0;
+}
+
+*/
+
 // ___________________________________________________________________________________________________________________________
 
 //3. Answer
+
+/*
+
+#include<stdio.h>
+
+int strlen(char str[]){
+    int i=0 , count;
+    int c = str[i]; 
+    while (c!= '\0')
+    {
+        c = str[i];
+        i++;
+    }
+    count = i - 1 ;
+    return count;
+}
+int main() {
+    char name[] = "Momin Jan";
+    printf("%d", strlen(name));
+    
+    return 0;
+}
+
+*/
+
+//_____________________________________________________________________________________________________
+
+//4. Answer
+
+/*
+
+#include<stdio.h>
+
+char* slice( char str[],int m ,int  n){
+    int i = 0, count;
+    char *ptr1 = &str[m];
+    char *ptr2 = &str[n];
+    str = ptr1;
+    str[n] = '\0';
+    return str;
+}
+int main() {
+    char name[] = "Momin jan";
+    printf("%s", slice(name, 0, 6));
+    return 0;
+}
+
+*/
+
+//__________________________________________________________________________________________________
+
+//6.    Answer
+
+/*
+
+#include<stdio.h>
+#include<string.h>
+
+int main() {
+    char str[] = "Momin";
+    for (int i = 0; i < strlen(str); i++)
+    {
+        str[i] = str[i] + 1;
+    }
+    
+    printf("%s", str);
+    
+    return 0;
+}
+
+*/
+
+//____________________________________________________________________________________________
+
