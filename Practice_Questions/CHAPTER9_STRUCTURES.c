@@ -24,3 +24,67 @@ dates.
 
 //________________________________________________________________________________________________________________
 
+//1. Answer
+
+
+/*
+
+struct vector{
+    int i;
+    int j;
+    
+};
+
+#include<stdio.h>
+
+int main() {
+    struct vector v = {1,2};
+    printf("The vector of two dimensions are %di + %dj", v.i, v.j);
+    return 0;
+}
+
+*/
+
+//_________________________________________________________________________________________________
+
+//2. Answer
+
+/*
+#include<stdio.h>
+
+struct vector{
+    int i;
+    int j;
+    
+};
+
+struct vector sumVector(struct vector v1, struct vector v2){
+    struct vector v3 = {v1.i + v2.i, v1.j + v2.j};
+    return v3;
+};
+
+
+int main() {
+    struct vector v1 = {1, 2};
+    struct vector v2 = {3, 5};
+    struct vector v3 = sumVector(v1,v2);
+    printf("The sum of the two dimension vector is %di + %dj", v3.i, v3.j);
+    return 0;
+}
+
+*/
+
+//____________________________________________________________________________________________________
+
+//3. Answer
+
+//Array
+
+//_____________________________________________________________________________________________________
+
+//4. Answer
+
+
+
+
+
