@@ -1,14 +1,19 @@
 #include<stdio.h>
 #include<string.h>
 
-int main() {
-    char str[] = "Momin";
-    for (int i = 0; i < strlen(str); i++)
-    {
-        str[i] = str[i] + 1;
-    }
+struct employee
+{
+    int code;
+    float salary;
+    char name[10];
+};
 
-    printf("%s", str);
-    
+int main() {
+    struct employee e1, e2;
+    strcpy(e1.name, "Harry");
+    e1.salary = 54.000;
+    e1.code = 190017;
+
+    printf("%d %f %s", e1. code, e1.salary, e1.name);
     return 0;
 }
