@@ -1,19 +1,20 @@
 #include<stdio.h>
-#include<string.h>
 
-struct employee
-{
-    int code;
-    float salary;
-    char name[10];
-};
+int multi(int n){
+    int multiplication;
+    for (int i = 0; i < 10; i++)
+    {
+        multiplication = printf("%d x %d = %d", n, i, n*i);
+    }
+    return multiplication;
+}
 
 int main() {
-    struct employee e1, e2;
-    strcpy(e1.name, "Harry");
-    e1.salary = 54.000;
-    e1.code = 190017;
-
-    printf("%d %f %s", e1. code, e1.salary, e1.name);
+    FILE *ptr;
+    ptr = fopen("abc.txt", "w");
+    int n;
+    printf("Enter the Number: ");
+    scanf("%d", &n);
+    multi(n);
     return 0;
 }
